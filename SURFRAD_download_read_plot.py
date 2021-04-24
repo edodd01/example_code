@@ -21,7 +21,7 @@ ftp="ftp://aftp.cmdl.noaa.gov/data/radiation/surfrad/"
 # read dates and site from arguements
 
 if (len(sys.argv) != 4):
-  print('run as: python run_pipeline.py site_code startyr-startmn-startdy:endyr-endmn-enddy youremail_for_wget')
+  print('run as: python SURFRAD_download_read_plot.py site_code startyr-startmn-startdy:endyr-endmn-enddy youremail_for_wget')
   exit()
 site=sys.argv[1]
 sedate=sys.argv[2]
